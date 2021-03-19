@@ -1,5 +1,5 @@
 
-# Basic Use Case -> pull yourself through the linked list one link at a time
+# Basic Usecase -> pull yourself through the linked list one link at a time
 # Reversing a linked list
 # Example: https://leetcode.com/problems/reverse-linked-list/
 
@@ -49,7 +49,13 @@ def reverseList(self, head):
             
         return prev
 
+# Removing nodes
+# Example: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
+
+
+# Merging two linked lists
+# Example: https://leetcode.com/problems/merge-two-sorted-lists/
 
 
 
