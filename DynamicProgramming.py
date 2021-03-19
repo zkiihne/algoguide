@@ -3,31 +3,6 @@
 # Sum -> when a DP problem asks for, total possible unique
 # Example: https://leetcode.com/problems/combination-sum-iv/
 
-def coinChange(self, coins, amount):
-        """
-        :type coins: List[int]
-        :type amount: int
-        :rtype: int
-        """
-        
-        # default
-        if amount == 0:
-            return 0
-
-       
-        goodrow = []
-        for s in range(1, amount+1):
-            min_val = float("inf")
-            for i in range(0, len(coins)):
-                value = coins[i]
-                val = min(1 + goodrow[s - value - 1], s - value + 1)
-                if val < min_val:
-                    min_val = val
-            goodrow.append(min_val)
-        if goodrow[amount-1] == float("inf"):
-            return -1
-        return goodrow[amount-1]
-
 # Min/Max -> when a DP problem asks for, shortest most longest least
 # Min example: https://leetcode.com/problems/coin-change/
 # Max example: 
