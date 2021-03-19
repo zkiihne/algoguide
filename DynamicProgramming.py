@@ -3,6 +3,27 @@
 # Sum -> when a DP problem asks for, total possible unique
 # Example: https://leetcode.com/problems/combination-sum-iv/
 
+def sum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        # set up table
+        dp = []
+        for i in range(0, target+1):
+            dp.append(0)
+        # initialize to 1
+        dp[0] = 1
+        # for each number up to target
+        for i in range(1,target+1):
+            # for each option
+            for n in nums:    
+                if i - n >= 0:
+                    # conditioned addition
+                    dp[i] = dp[i] + dp[i-n]
+        return dp[target]
+
 # Min/Max -> when a DP problem asks for, shortest most longest least
 # Min example: https://leetcode.com/problems/coin-change/
 # Max example: 
