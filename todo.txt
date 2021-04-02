@@ -1,6 +1,6 @@
 Zach's Problems todo:
-#2 on systems design
-Validate Binary Tree https://leetcode.com/problems/validate-binary-search-tree/
+  #2 on systems design
+  Validate Binary Tree https://leetcode.com/problems/validate-binary-search-tree/
 #4 on systems design 
 Counting bits https://leetcode.com/problems/counting-bits/
 Merge K sorted lists https://leetcode.com/problems/merge-k-sorted-lists/
