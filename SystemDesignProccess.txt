@@ -1,0 +1,52 @@
+
+
+-Given: something to design
+Ex: Design a URL shortening service
+
+-Scope
+1. Clarify the inputs and outputs expected
+User inputs a long url and gets one back with a guranteed length
+2. Clarify who the users are
+The general public, with no user verification
+3. Clarify what the users are using it for
+Using it to fit URLs in their tweets
+NOT using it for metadata
+
+-Constraints
+1. Amount of writes
+There are 15 billion tweets a month, 10% of these will use a url so 1.5 billion a month  
+2. Amount of reads
+We can expect 10x reads per url shortened on average so 150 billion reads a month
+but we do not expect to handle all that traffic, we expect to only capture 10% of it ie 150 million writes 1.5 billion reads
+3. Calculate storage needed 
+Each url will end up being 6 bytes when hashed, and each url is up to 500 bytes -> 506 bytes * 150,000,000 writes => 76 GB a month
+Assuming urls expire after a month
+
+Abstract Design
+
+
+-Bottlenecks
+1. How much data needs to be stored?
+76 GB per month
+2. Are there large amounts of read requests?
+There are 1.5B reads so yes, though many are repeated
+3. Are there large amounts of write requests?
+There are 150M writes so no 
+
+-Scalability
+1. What will your clone layer look like? 
+Duplicate layers that query from DB
+3. What database will you use?
+NoSQL
+3. What can be cached?
+Requests are more likely to be called in many times in a row, so most recent requests are cached
+4. What tasks can be done asynconiously? 
+None right now
+
+
+
+
+
+
+
+
