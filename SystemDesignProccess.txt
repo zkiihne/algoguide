@@ -23,7 +23,7 @@ Each url will end up being 6 bytes when hashed, and each url is up to 500 bytes 
 Assuming urls expire after a month
 
 -Abstract Design
-1. Desgin the basic mechanisms
+1. Desgin the basic mechanisms, read and write
 User sends url to server -> server stores it in database
 User visit url -> redirects to site
 
