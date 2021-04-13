@@ -22,8 +22,10 @@ but we do not expect to handle all that traffic, we expect to only capture 10% o
 Each url will end up being 6 bytes when hashed, and each url is up to 500 bytes -> 506 bytes * 150,000,000 writes => 76 GB a month
 Assuming urls expire after a month
 
-Abstract Design
-
+-Abstract Design
+1. Desgin the basic mechanisms
+User sends url to server -> server stores it in database
+User visit url -> redirects to site
 
 -Bottlenecks
 1. How much data needs to be stored?
