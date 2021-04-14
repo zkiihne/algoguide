@@ -45,8 +45,10 @@ Requests are more likely to be called in many times in a row, so most recent req
 4. What tasks can be done asynconiously? 
 None right now
 
-
-
+-Finish
+Is there any capabilities you would like to see in this system that there is not currently?
+Are there any points you think could be improved?
+Are there any issues you have with the design or other concerns?
 
 
 
