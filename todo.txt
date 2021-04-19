@@ -3,5 +3,21 @@ Zach's Problems todo:
   Validate Binary Tree https://leetcode.com/problems/validate-binary-search-tree/
   #4 on systems design 
   Counting bits https://leetcode.com/problems/counting-bits/
-Merge K sorted lists https://leetcode.com/problems/merge-k-sorted-lists/
+  Merge K sorted lists https://leetcode.com/problems/merge-k-sorted-lists/
+https://leetcode.com/problems/non-overlapping-intervals/
 Group Anagram https://leetcode.com/problems/group-anagrams/
+https://leetcode.com/problems/maximum-subarray/ and https://leetcode.com/problems/maximum-product-subarray/
+https://leetcode.com/problems/decode-ways/
+https://leetcode.com/problems/palindromic-substrings/
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+https://leetcode.com/problems/find-median-from-data-stream/
+https://leetcode.com/problems/merge-intervals/
+https://leetcode.com/problems/course-schedule/
+https://leetcode.com/problems/3sum/ + https://leetcode.com/problems/missing-number/
+https://leetcode.com/problems/word-break/
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+https://leetcode.com/problems/implement-trie-prefix-tree/
+https://leetcode.com/problems/container-with-most-water/
+https://leetcode.com/problems/word-search-ii/
+https://leetcode.com/problems/top-k-frequent-elements/
+
