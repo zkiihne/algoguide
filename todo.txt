@@ -8,8 +8,8 @@ Zach's Problems todo:
   Group Anagram https://leetcode.com/problems/group-anagrams/
 https://leetcode.com/problems/maximum-subarray/ and https://leetcode.com/problems/maximum-product-subarray/
 https://leetcode.com/problems/decode-ways/
-https://leetcode.com/problems/palindromic-substrings/
-https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+  https://leetcode.com/problems/palindromic-substrings/
+  https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 https://leetcode.com/problems/find-median-from-data-stream/
 https://leetcode.com/problems/merge-intervals/
 https://leetcode.com/problems/course-schedule/
